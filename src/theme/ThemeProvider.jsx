@@ -12,6 +12,14 @@ const system = createSystem(defaultConfig, {
                         value: "#195B8D"
                     }
                 },
+                secondary: {
+                    DEFAULT: {
+                        value: "#8d9a1bff"
+                    },
+                    hover: {
+                        value: "#195B8D"
+                    }
+                },
                 danger: {
                     DEFAULT: {
                         value: "#DC2626"

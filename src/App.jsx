@@ -14,7 +14,7 @@ function App() {
       direction="column"
       w="100%"
       minH="100vh"       // full viewport height
-      align="stretch"
+     
     >
       <Home />
     </Flex>
