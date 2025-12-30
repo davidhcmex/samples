@@ -34,9 +34,9 @@ export const CustomTable = () => {
 
                     {/* Table Body */}
                     <TableBody>
-                        {baremetalData.map((item) => {
+                        {baremetalData.map((item, ndx) => {
                             return (
-                                <TableRow>
+                                <TableRow key={ndx}>
                                     <TableCell>{item.baremetalId}</TableCell>
                                     <TableCell>{item.brand}</TableCell>
                                     <TableCell>{item.ipAddress}</TableCell>

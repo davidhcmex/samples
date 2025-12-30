@@ -90,9 +90,9 @@ export const TodoTableWithActions = () => {
       </table>
       <label style={{ marginRight: '20px'}} htmlFor="todoText">typing a text will make the 'add To Do' button be shown:</label>
       <input style={{borderColor:'black', borderStyle:'solid', borderWidth:'2px'}} type="text" value={input} name='todoText:' onChange={(e) => setInput(e.target.value)} />
-      <tr />
+      <br />
       {input.trim() !== "" && <button style={{ backgroundColor: 'gray', margin: '20px' }} onClick={addTodo}>Add Todo</button>}
-      <tr />
+      <br />
       <label style={{ marginRight: '20px' }} htmlFor="filter">Filter:</label>
       <select id="filter" name="filter" onChange={handleChange}>
         <option value="all">All</option>
