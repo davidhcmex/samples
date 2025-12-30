@@ -17,7 +17,7 @@ export const CustomTable = () => {
                     mx="auto"
                     my={6}
                 >
-                    <TableCaption style={{ captionSide: "top" }} color="gray.600" fontSize="lg">
+                    <TableCaption style={{ captionSide: "top", paddingBottom: '20px' }} color="gray.600" fontSize="lg">
                         Bare Metal Servers
                     </TableCaption>
                     {/* Table Header */}

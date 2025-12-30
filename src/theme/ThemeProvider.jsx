@@ -8,17 +8,10 @@ const system = createSystem(defaultConfig, {
                     DEFAULT: {
                         value: "#1B619A"
                     },
-                    hover: {
-                        value: "#195B8D"
-                    }
-                },
-                secondary: {
-                    DEFAULT: {
-                        value: "#8d9a1bff"
-                    },
-                    hover: {
-                        value: "#195B8D"
-                    }
+                    50: "#266697ff",
+                    100: "#2a71a8ff",
+                    150: "#379ce9ff",
+                    
                 },
                 danger: {
                     DEFAULT: {
